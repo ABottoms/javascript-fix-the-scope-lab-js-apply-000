@@ -20,7 +20,7 @@ describe('Fix the Scope', function() {
     })
   })
  
-  describe(var = '(n)', function('add2') {
+  describe(var = '(n)', function('add2')) {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
       expect(window.add2(n)).toEqual(n + 2)
