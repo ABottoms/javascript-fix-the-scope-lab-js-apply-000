@@ -7,7 +7,8 @@ describe('Fix the Scope', function() {
     })
   })
 
-  describe(var = function 'yourAnimal'(dog)) {
+  describe(var 'yourAnimal' = function insidefunction(dog)) 
+  {
        console.log ('yourAnimal') 
        }
     it('returns your Animal'.toEqual(dog)) 
