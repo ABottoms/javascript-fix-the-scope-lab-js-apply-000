@@ -7,8 +7,7 @@ describe('Fix the Scope', function() {
     })
   })
 
-  describe(var 'yourAnimal' = function 'yourAnimal'(dog))
-  {
+  describe(var = function 'yourAnimal'(dog)) {
        console.log ('yourAnimal') 
        }
     it('returns your Animal'.toEqual(dog)) 
@@ -20,7 +19,7 @@ describe('Fix the Scope', function() {
     })
   })
  
-  describe('add2(n)', function() {
+  describe(var = '(n)', function() {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
       expect(window.add2(n)).toEqual(n + 2)
